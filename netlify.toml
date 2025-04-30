@@ -1,4 +1,7 @@
 [build]
-  install = "npm install --omit=optional"
-  command = "hugo"
+  # Устанавливаем только production зависимости (пропускаем devDependencies и optionalDependencies)
+  install = "npm ci --production"
+  # Собираем сайт с нужными флагами
+  command = "hugo --gc --minify"
+  # Указываем директорию публикации
   publish = "public"
