@@ -1,3 +1,4 @@
 [build]
+  install = "npm install --omit=optional"
+  command = "hugo"
   publish = "public"
-  command = "hugo --gc --minify"
