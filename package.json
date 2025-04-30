@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss ./assets/css/style.css --config ./postcss.config.js -o ./static/css/style.css"
+    "postcss ./assets/css/style.css --config ./postcss.config.js -o ./static/css/style.css"
   },
   "keywords": [],
   "author": "",
