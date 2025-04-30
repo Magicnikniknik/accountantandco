@@ -1,3 +1,7 @@
 [build]
-  command = "npm ci --production && hugo --gc --minify"
-  publish = "public"
+  # command = "npm ci --production && hugo --gc --minify" # Закомментировать или удалить
+  # publish = "public" # Закомментировать или удалить
+
+# Другие секции, если они есть, оставьте без изменений
+# [[plugins]]
+# ...
