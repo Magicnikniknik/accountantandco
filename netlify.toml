@@ -1,6 +1,8 @@
 [build]
-  command = "npm ci --production && npm run build:css && hugo --gc --minify"
+  command = "npm ci --production && ls -l ./node_modules/.bin/postcss && npm run build:css && hugo --gc --minify"
   publish = "public"
 
   [build.environment]
     HUGO_VERSION = "0.145"
+    # Можете также попробовать явно указать версию Node.js, например:
+    # NODE_VERSION = "18" # Или "20", "21"
