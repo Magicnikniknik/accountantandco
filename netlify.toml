@@ -1,3 +1,9 @@
 [build]
   command = "npm ci --production && hugo --gc --minify"
   publish = "public"
+
+  # Add or ensure this section exists
+  [build.environment]
+    # You might have other variables like NODE_ENV here
+    # Add the Hugo version: (Replace 0.125.7 with your desired version)
+    HUGO_VERSION = "0.145"
