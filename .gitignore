@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hugo build output
+public/
+resources/
+
+# macOS
+.DS_Store
