@@ -1,5 +1,4 @@
-cat > postcss.config.js <<'EOF'
+// postcss.config.js
 module.exports = {
   plugins: []
 }
-EOF
