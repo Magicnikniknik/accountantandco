@@ -1,8 +1,7 @@
 [build]
-  # Убрали --include=dev из npm install
   command = "npm ci && npm run build:css && hugo --gc --minify"
   publish = "public"
 
   [build.environment]
-    HUGO_VERSION = "0.125.7" # Используем последнюю стабильную LTS версию Hugo
-    NODE_VERSION = "20.11.1" # Используем последнюю стабильную LTS версию Node.js
+    HUGO_VERSION = "0.125.7"
+    NODE_VERSION = "20.11.1"
