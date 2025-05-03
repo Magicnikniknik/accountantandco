@@ -1,6 +1,6 @@
 [build]
   # Убрали --include=dev из npm install
-  command = "npm install && npm run build:css && hugo --gc --minify"
+  command = "npm ci && npm run build:css && hugo --gc --minify"
   publish = "public"
 
   [build.environment]
