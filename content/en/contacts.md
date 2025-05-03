@@ -1,6 +1,6 @@
 ---
 title: "Contact Accountant & Co. | Financial Services in Russia"
-description: "Need expert accounting and financial services in Russia? Contact Accountant & Co. at +7 (499) 350-08-17 or info@accauntantandco.com today."
+description: "Need expert accounting and financial services in Russia? Contact Accountant & Co. at +7 (499) 350-08-17 or info@accountantandco.com today."
 keywords: "contact Accountant & Co., financial services Russia, accounting support Russia"
 type: contact
 image: "/images/contacts/contacts.png"
@@ -12,7 +12,7 @@ For reliable accounting and financial support in Russia, Accountant & Co. is her
 
 - **Address:** Nagatinskaya St. 16, 2nd Floor, Moscow, 115487, Russia
 - **Phone:** +7 (499) 350-08-17
-- **Email:** info@accauntantandco.com
+- **Email:** info@accountantandco.com
 - **Business Hours:** Monday–Friday, 9:00 AM–8:00 PM (Moscow Time)
 
 Get professional support today. [Contact us now!](/contacts/)
