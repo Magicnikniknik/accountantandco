@@ -1,7 +1,8 @@
 [build]
-  command = "npm ci && npx tailwindcss -i ./assets/css/style.css -o ./static/css/style.css --minify && hugo --gc --minify"
+  # Убрали --include=dev из npm install
+  command = "npm install && npm run build:css && hugo --gc --minify"
   publish = "public"
 
-[build.environment]
-  HUGO_VERSION = "0.145"
-  NODE_VERSION = "20.18.1"
+  [build.environment]
+    HUGO_VERSION = "0.125.7" # Используем последнюю стабильную LTS версию Hugo
+    NODE_VERSION = "20.11.1" # Используем последнюю стабильную LTS версию Node.js
