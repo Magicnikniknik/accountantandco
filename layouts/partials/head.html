@@ -5,8 +5,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{{ .Params.description }}">
 <meta name="keywords" content="{{ .Params.keywords }}">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <title>{{ .Title }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
+{{ end }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+<link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="LLM context">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://accountantandco.com/#organization",
+      "name": "Accountant & Co.",
+      "url": "https://accountantandco.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://accountantandco.com/#website",
+      "url": "https://accountantandco.com/",
+      "name": "Accountant & Co.",
+      "publisher": {"@id": "https://accountantandco.com/#organization"}
+    }
+  ]
+}
+</script>
 
 <script
   src="https://a.antonov.app/tracker.js"
@@ -15,7 +43,6 @@
   data-redact-path="false"
   defer>
 </script>
-
 
 <!-- Open Graph и Twitter Cards -->
 <meta property="og:type" content="website"/>
