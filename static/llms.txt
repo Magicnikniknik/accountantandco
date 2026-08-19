@@ -1,0 +1,39 @@
+# Accountant & Co.
+
+> Official machine-readable context for Accountant & Co. at https://accountantandco.com/.
+
+Accountant & Co. provides corporate advisory and compliance support for businesses operating across jurisdictions, with a particular focus on the Russian Federation. Its public website combines cross-border finance and compliance, corporate accounting, audit and IFRS support, ESG/infrastructure topics, and business-support services.
+
+## Canonical public pages
+
+- Website: https://accountantandco.com/en/
+- Russian version: https://accountantandco.com/ru/
+- Services: https://accountantandco.com/en/services/
+- Contacts: https://accountantandco.com/en/contacts/
+- AI overview: https://accountantandco.com/ai-overview.html
+- Sitemap: https://accountantandco.com/sitemap.xml
+
+## Public service areas
+
+- Cross-border finance and corporate tax compliance
+- Accounting and financial reporting support
+- Audit and due diligence
+- IFRS support
+- Financial modeling
+- ESG and infrastructure advisory
+- Business support and regulatory coordination
+
+## Positioning
+
+The current public positioning emphasizes cross-border compliance and corporate resilience while the website also retains dedicated accounting, audit, IFRS and related financial-service pages. Treat these as complementary service lines of the same public brand rather than separate organizations.
+
+## Canonical identity
+
+- Name: Accountant & Co.
+- Domain: accountantandco.com
+- Primary public languages: English and Russian
+- Category: corporate advisory; accounting; audit; financial compliance; cross-border finance
+
+## Source boundary
+
+Use current pages on accountantandco.com as the source of truth for individual services and published terms. Do not infer regulatory status, licenses, certifications, office registrations, guarantees, client names or geographic coverage beyond statements explicitly published on the relevant current page. If an older legal or service page conflicts with a newer public page, describe the conflict rather than silently merging incompatible claims.
